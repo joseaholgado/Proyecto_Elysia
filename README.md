@@ -1,15 +1,42 @@
-# Elysia with Bun runtime
+# Elysia Hello World API
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+This project is a simple Hello World API using the Elysia framework.
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
+## Description
 
-Open http://localhost:3000/ with your browser to see the result.
+The application provides a basic endpoint that returns a greeting message.
+
+## Installation and Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/joseaholgado/Proyecto_Elysia.git
+   cd Proyecto_Elysia
+
+2. **Install Bun:**:
+    ```bash
+    curl https://bun.sh/install | bash
+
+3. **Install dependencies:**:
+    ```bash
+    bun install
+
+4. **Run the development server:**:
+    ```bash
+    bun run --watch src/index.ts
+
+
+## Screenshots and GitHub
+
+1. Server running
+
+![Server running](captures/elysia_1.png)
+
+![Server running](captures/elysia_2.png)
+
+2. Repository and commit
+
+https://github.com/joseaholgado/Proyecto_Elysia
+
+![Git commit](captures/git_3.png)
+
